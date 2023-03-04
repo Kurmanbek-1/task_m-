@@ -1,6 +1,5 @@
 .env
 venv
-config.py
 
 .idea
 .vscode
