@@ -8,7 +8,8 @@ start_markup = ReplyKeyboardMarkup(
 # ===================================================================================
 start_button = KeyboardButton('/start')
 info_button = KeyboardButton('/info')
+info_bot = KeyboardButton('/infobot')
 # ===================================================================================
-start_markup.add(start_button, info_button)
+start_markup.add(start_button, info_button, info_bot)
 # ===================================================================================
 
