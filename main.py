@@ -1,11 +1,8 @@
-from config import dp, Bot, Admins
+from config import dp
 from aiogram.utils import executor
 import logging
 import asyncio
 from handlers import client
-# ===================================================================================
-async def on_startup(_):
-    await Bot.send_message(chat_id=Admins[0],text="Бот запущен!")
 # ===================================================================================
 client.handler_client(dp)
 # ===================================================================================
